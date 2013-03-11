@@ -986,6 +986,8 @@ code {
   white-space: nowrap;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
+  direction: ltr;
+  display: inline-block;
 }
 
 pre {
@@ -1008,6 +1010,7 @@ pre {
 
 pre.prettyprint {
   margin-bottom: 20px;
+  direction: ltr;
 }
 
 pre code {
