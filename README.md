@@ -6,6 +6,8 @@
 
 Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat).
 
+RTL version by [Mohammad Hasani Eghtedar](mailto:m.h.eghtedar@gmail.com)
+
 To get started, checkout [http://getbootstrap.com](http://getbootstrap.com)!
 
 
