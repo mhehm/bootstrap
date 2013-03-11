@@ -2908,7 +2908,7 @@ table th[class*="span"],
   right: 0;
   z-index: 1000;
   display: none;
-  float: left;
+  float: right;
   min-width: 160px;
   padding: 5px 0;
   margin: 2px 0 0;
@@ -3159,7 +3159,7 @@ table th[class*="span"],
 }
 
 .close {
-  float: right;
+  float: left;
   font-size: 20px;
   font-weight: bold;
   line-height: 20px;
@@ -5377,7 +5377,7 @@ input[type="submit"].btn.btn-mini {
 .popover {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 1010;
   display: none;
   max-width: 276px;
