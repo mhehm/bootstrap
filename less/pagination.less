@@ -12,7 +12,7 @@
   display: inline-block;
   .ie7-inline-block();
   // Reset default ul styles
-  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 0;
   // Visuals
   .border-radius(@baseBorderRadius);
@@ -23,13 +23,13 @@
 }
 .pagination ul > li > a,
 .pagination ul > li > span {
-  float: left; // Collapse white-space
+  float: right; // Collapse white-space
   padding: 4px 12px;
   line-height: @baseLineHeight;
   text-decoration: none;
   background-color: @paginationBackground;
   border: 1px solid @paginationBorder;
-  border-left-width: 0;
+  border-right-width: 0;
 }
 .pagination ul > li > a:hover,
 .pagination ul > li > a:focus,
@@ -52,12 +52,12 @@
 }
 .pagination ul > li:first-child > a,
 .pagination ul > li:first-child > span {
-  border-left-width: 1px;
-  .border-left-radius(@baseBorderRadius);
+  border-right-width: 1px;
+  .border-right-radius(@baseBorderRadius);
 }
 .pagination ul > li:last-child > a,
 .pagination ul > li:last-child > span {
-  .border-right-radius(@baseBorderRadius);
+  .border-left-radius(@baseBorderRadius);
 }
 
 
@@ -68,7 +68,7 @@
   text-align: center;
 }
 .pagination-right {
-  text-align: right;
+  text-align: left;
 }
 
 
@@ -84,11 +84,11 @@
   }
   ul > li:first-child > a,
   ul > li:first-child > span {
-    .border-left-radius(@borderRadiusLarge);
+    .border-right-radius(@borderRadiusLarge);
   }
   ul > li:last-child > a,
   ul > li:last-child > span {
-    .border-right-radius(@borderRadiusLarge);
+    .border-left-radius(@borderRadiusLarge);
   }
 }
 
@@ -97,11 +97,11 @@
 .pagination-small {
   ul > li:first-child > a,
   ul > li:first-child > span {
-    .border-left-radius(@borderRadiusSmall);
+    .border-right-radius(@borderRadiusSmall);
   }
   ul > li:last-child > a,
   ul > li:last-child > span {
-    .border-right-radius(@borderRadiusSmall);
+    .border-left-radius(@borderRadiusSmall);
   }
 }
 

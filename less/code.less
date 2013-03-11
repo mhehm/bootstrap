@@ -20,6 +20,8 @@ code {
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
   white-space: nowrap;
+  direction: ltr;
+  display: inline-block;
 }
 
 // Blocks of code
@@ -41,6 +43,7 @@ pre {
   // Make prettyprint styles more spaced out for readability
   &.prettyprint {
     margin-bottom: @baseLineHeight;
+	direction: ltr;
   }
 
   // Account for some code outputs that place code tags in pre tags

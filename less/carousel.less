@@ -35,7 +35,7 @@
   > .prev { display: block; }
 
   > .active {
-    left: 0;
+    right: 0;
   }
 
   > .next,
@@ -46,21 +46,21 @@
   }
 
   > .next {
-    left: 100%;
+    right: 100%;
   }
   > .prev {
-    left: -100%;
+    right: -100%;
   }
   > .next.left,
   > .prev.right {
-    left: 0;
+    right: 0;
   }
 
   > .active.left {
-    left: -100%;
+    right: -100%;
   }
   > .active.right {
-    left: 100%;
+    right: 100%;
   }
 
 }
@@ -71,7 +71,7 @@
 .carousel-control {
   position: absolute;
   top: 40%;
-  left: 15px;
+  right: 15px;
   width: 40px;
   height: 40px;
   margin-top: -20px;
@@ -94,8 +94,8 @@
 
   // Reposition the right one
   &.right {
-    left: auto;
-    right: 15px;
+    right: auto;
+    left: 15px;
   }
 
   // Hover/focus state
@@ -112,17 +112,17 @@
 .carousel-indicators {
   position: absolute;
   top: 15px;
-  right: 15px;
+  left: 15px;
   z-index: 5;
   margin: 0;
   list-style: none;
 
   li {
     display: block;
-    float: left;
+    float: right;
     width: 10px;
     height: 10px;
-    margin-left: 5px;
+    margin-right: 5px;
     text-indent: -999px;
     background-color: #ccc;
     background-color: rgba(255,255,255,.25);
