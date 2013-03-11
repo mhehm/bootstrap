@@ -5,7 +5,7 @@
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ * Designed and built with all the love in the world @twitter by @mdo and @fat. RTL support by Mohammad Hasani Eghtedar.
  */
 
 .clearfix {
@@ -6160,7 +6160,7 @@ a.badge:focus {
   position: fixed;
 }
 
-body,
+body > *,
 .rtl {
   direction: rtl;
 }
