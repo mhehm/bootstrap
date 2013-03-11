@@ -2,7 +2,7 @@
   <img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-docs-readme.png" width="100px">
 </a>
 
-# [Bootstrap v2.3.1 RTL](http://twitter.github.com/bootstrap) [![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)](http://travis-ci.org/twitter/bootstrap)
+# [RTL Bootstrap v2.3.1](http://twitter.github.com/bootstrap) [![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)](http://travis-ci.org/twitter/bootstrap)
 
 Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created and maintained by [Mark Otto](http://twitter.com/mdo) and [Jacob Thornton](http://twitter.com/fat).
 
@@ -17,7 +17,7 @@ To get started, checkout [http://getbootstrap.com](http://getbootstrap.com)!
 Three quick start options are available:
 
 * [Download the latest release](https://github.com/mhehm/bootstrap/zipball/master).
-* Clone the repo: `git clone git://github.com/twitter/bootstrap.git`.
+* Clone the repo: `git clone git://github.com/mhehm/bootstrap.git`.
 * Install with Twitter's [Bower](http://twitter.github.com/bower): `bower install bootstrap`.
 
 
@@ -99,6 +99,11 @@ Thanks!
 
 + [http://twitter.com/fat](http://twitter.com/fat)
 + [http://github.com/fat](http://github.com/fat)
+
+**Mohammad Hasani Eghtedar**
+
++ [http://twitter.com/mhehm](http://twitter.com/mhehm)
++ [http://github.com/mhehm](http://github.com/mhehm)
 
 
 
