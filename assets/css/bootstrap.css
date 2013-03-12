@@ -5406,7 +5406,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .popover.right {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .popover.bottom {
@@ -5414,7 +5414,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .popover.left {
-  margin-right: -10px;
+  margin-left: -10px;
 }
 
 .popover-title {
@@ -5475,18 +5475,18 @@ input[type="submit"].btn.btn-mini {
 
 .popover.right .arrow {
   top: 50%;
-  right: -11px;
+  left: -11px;
   margin-top: -11px;
-  border-left-color: #999;
-  border-left-color: rgba(0, 0, 0, 0.25);
-  border-right-width: 0;
+  border-right-color: #999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+  border-left-width: 0;
 }
 
 .popover.right .arrow:after {
   bottom: -10px;
-  right: 1px;
-  border-left-color: #ffffff;
-  border-right-width: 0;
+  left: 1px;
+  border-right-color: #ffffff;
+  border-left-width: 0;
 }
 
 .popover.bottom .arrow {
@@ -5507,18 +5507,18 @@ input[type="submit"].btn.btn-mini {
 
 .popover.left .arrow {
   top: 50%;
-  left: -11px;
+  right: -11px;
   margin-top: -11px;
-  border-right-color: #999;
-  border-right-color: rgba(0, 0, 0, 0.25);
-  border-left-width: 0;
+  border-left-color: #999;
+  border-left-color: rgba(0, 0, 0, 0.25);
+  border-right-width: 0;
 }
 
 .popover.left .arrow:after {
-  left: 1px;
+  right: 1px;
   bottom: -10px;
-  border-right-color: #ffffff;
-  border-left-width: 0;
+  border-left-color: #ffffff;
+  border-right-width: 0;
 }
 
 .thumbnails {
